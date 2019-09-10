@@ -7,12 +7,18 @@ public class Geometry
     int sides = 7;
     int radius = 5; 
     final double PI = 3.14;
+    int c;
+    int a = 40;
+    double y = 6.0;
+    int b = 6;
+    double z;
     
-    System.out.print("A heptagon has "+sides+" Sides /n/n");
-    System.out.print("A decagon has "+(sides+3)+" Sides /n/n");
-    System.out.print("A dodecagon has"+ sides+radius+"Sides"); 
+    z = (double) a / b;
+    System.out.println("A heptagon has " + sides + " sides.");
+    System.out.println("A decagon has " + (sides + 3) + " sides.");
+    System.out.println("A dodecagon has " + (radius + radius) + " sides."); 
+    System.out.println("The circumference of a circle with a radius of " + 1 + " is " + (PI + PI));
     
-        
     
     }
 
